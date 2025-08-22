@@ -1,0 +1,63 @@
+[
+  {
+    "term": "MARC21",
+    "definition": "Estándar internacional para la codificación y comunicación de información bibliográfica y de autoridad en formato legible por máquina."
+  },
+  
+  {
+    "term": "Registro Bibliográfico",
+    "definition": "Descripción de un recurso documental (libro, revista, etc.) estructurada según MARC21, conteniendo datos como autor, título, edición y publicación."
+  },
+  {
+    "term": "Base de Autoridades",
+    "definition": "Sistema o archivo que almacena Registros de Autoridad, cuya función principal es controlar y estandarizar los puntos de acceso para los registros bibliográficos."
+  },
+  {
+    "term": "Registro de Autoridad",
+    "definition": "Un registro específico dentro de una Base de Autoridades que establece la forma preferida (autorizada) de un nombre (persona, entidad), título o materia, junto con sus variantes y referencias."
+  },
+  {
+    "term": "Punto de Acceso",
+    "definition": "Elemento de un registro bibliográfico (autor, título, materia) que permite la búsqueda y recuperación del recurso, y cuya forma es controlada por un Registro de Autoridad."
+  },
+  {
+    "term": "Forma Autorizada (Punto de Acceso)",
+    "definition": "La versión estandarizada y única de un nombre, título o materia, establecida y registrada en el Registro de Autoridad para asegurar uniformidad."
+  },
+  {
+    "term": "Desambiguación de Puntos de Acceso",
+    "definition": "Función de las Bases de Autoridad que permite distinguir entre entidades con nombres idénticos o similares, asignando calificadores únicos."
+  },
+  {
+    "term": "Consistencia Catalográfica",
+    "definition": "Ventaja clave de las Bases de Autoridades que garantiza que los mismos puntos de acceso se presenten de forma idéntica en todo el catálogo, facilitando la navegación."
+  },
+  {
+    "term": "Control de Vocabulario",
+    "definition": "La base de autoridades estandariza los términos y nombres usados como puntos de acceso, evitando sinonimia y homonimia en las búsquedas."
+  },
+  {
+    "term": "Eficiencia en el Proceso de Catalogación",
+    "definition": "Las Bases de Autoridades reducen el tiempo de catalogación al proporcionar formas preestablecidas de puntos de acceso, evitando la necesidad de crearlas desde cero."
+  },
+  {
+    "term": "Mejora de la Recuperación de Información",
+    "definition": "Al vincular formas variantes a la forma autorizada, los usuarios pueden encontrar recursos relacionados incluso si buscan con una terminología no preferida."
+  },
+  {
+    "term": "Mantenimiento Simplificado del Catálogo",
+    "definition": "Cualquier cambio o corrección en un punto de acceso se realiza una única vez en el Registro de Autoridad, actualizando automáticamente todos los registros bibliográficos vinculados."
+  },
+  {
+    "term": "Interoperabilidad y Reutilización de Datos",
+    "definition": "El uso de bases de autoridades estandarizadas facilita el intercambio de registros bibliográficos entre instituciones y sistemas sin conflictos de puntos de acceso."
+  },
+  {
+    "term": "Enlace entre Registros (Bibliográfico-Autoridad)",
+    "definition": "La conexión se establece en los registros bibliográficos (campos 1XX, 6XX, 7XX) mediante un subcampo específico (generalmente $0 o $1) que contiene el identificador único del Registro de Autoridad correspondiente."
+  },
+  {
+    "term": "Identificador de Autoridad",
+    "definition": "Código único asignado a cada Registro de Autoridad, utilizado para establecer el vínculo directo desde los puntos de acceso en los registros bibliográficos."
+  }
+]

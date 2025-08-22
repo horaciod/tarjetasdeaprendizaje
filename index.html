@@ -1,0 +1,35 @@
+<script type="importmap">
+  {
+    "imports": {
+      "@google/genai": "https://esm.sh/@google/genai@^0.7.0"
+    }
+  }
+  </script>
+  <!-- Add Google Fonts Link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+  <div class="container">
+    <h1>Generador de Flashcard </h1>
+    <p>
+      Enter a topic to generate flashcards using the Gemini API, or load your own from a JSON file.
+    </p>
+    <div id="controls">
+      <textarea
+        id="topicInput"
+        placeholder="Enter topic (e.g., Ancient Rome) or 'Term: Definition' pairs (one per line)"
+      ></textarea>
+      <div class="button-group">
+        <button id="generateButton">Generate Flashcards</button>
+        <button id="loadButton">Load from File</button>
+        <button id="saveButton" class="hidden">Save Flashcards</button>
+        <input type="file" id="fileInput" accept=".json" class="hidden">
+      </div>
+    </div>
+    <div id="errorMessage" class="error-message"></div>
+    <div id="flashcardsContainer" class="flashcards-container">
+      <!-- Flashcards will be generated here -->
+    </div>
+  </div><link rel="stylesheet" href="/index.css">
+<script type="module" src="/index.tsx"></script>
